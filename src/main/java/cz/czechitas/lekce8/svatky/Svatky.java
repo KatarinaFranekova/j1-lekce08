@@ -161,11 +161,11 @@ public class Svatky {
    *
    * @see Stream#dropWhile(java.util.function.Predicate)
    */
-  public Stream<String> jmenaOdVanoc() {
+ /* public Stream<String> jmenaOdVanoc() {
     //TODO
     return seznamSvatku()
             .dropWhile(svatek -> !svatek.getDen().equals(MonthDay.of(12,24)))
-            .map(svatek -> svatek.getJmeno());
+            .map(svatek -> svatek.getJmeno());*/
   }
 
   private static Svatek parseLine(String line) {
